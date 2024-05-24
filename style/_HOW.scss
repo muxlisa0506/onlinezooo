@@ -1,0 +1,41 @@
+.HOW {
+
+  
+
+    .HOW__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 190px;
+
+        h4{
+            margin-top: 100px;    
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 143%;
+            text-align: center;
+            color: #0d444d;
+
+            margin-bottom: 65px;
+        }
+
+        .card{
+            position: relative;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .img__1{
+       z-index: -3;
+        }
+
+        .img__2{
+            position: absolute;
+            
+            z-index: 1;
+            top: 100px;
+            left: 95px;
+        }
+    }
+} 

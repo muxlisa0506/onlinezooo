@@ -1,0 +1,90 @@
+.img__wrapper {
+
+    margin-left: 80px;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+    margin-bottom: 30px;
+
+    h5 {
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #216e7a;
+
+        margin-top: 113px;
+
+    }
+
+    button {
+        width: 331px;
+        height: 52px;
+        border: 1.50px solid #216e7a;
+        border-radius: 100px;
+        width: 331px;
+        height: 52px;
+
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #216e7a;
+        background-color: #fff;
+
+        margin-top: 113px;
+
+    }
+}
+
+.ajoyib {
+    margin-top: 100px;
+    margin-bottom: 99px;
+}
+
+
+
+.mms_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #216e7a;
+
+
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.animals {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 101px;
+}
+
